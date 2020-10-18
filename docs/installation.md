@@ -59,7 +59,7 @@ The _Arch_ way to install git-secret is to use the directions for
 "Installing Packages" at [Arch User Repository Documentation](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages)
 along with the `PKGBUILD` file from the [git-secret Arch Linux Package](https://aur.archlinux.org/packages/git-secret/)
 
-You can also install from the [AUR](https://aur.archlinux.org/) using your helper of choice by 
+You can also install from the [AUR](https://aur.archlinux.org/) using your helper of choice by
 installing the package `git-secret`, for example using [yay](https://github.com/Jguer/yay)
 
 ```bash
@@ -77,14 +77,5 @@ PREFIX="/usr/local" make install
 ```
 
 Note that you can install to any prefix in your `PATH`
-
----
-
-### `antigen` plugin
-
-*Deprecated*
-
-1. Add line `antigen bundle sobolevn/git-secret` to your `~/.zshrc`
-2. Run `source ~/.zshrc` or reopen the terminal
 
 ---
