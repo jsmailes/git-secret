@@ -12,6 +12,7 @@
 ### Misc
 
 - Improve docs about using gpg with git-secret (#577)
+- Removed antigen installation instructions (#591)
 - Text improvements and More about security in git-secret.7 man page (#603)
 - Reflect changes in ruby bundler during build process
 - Upgrade build process to ansible 2.9
